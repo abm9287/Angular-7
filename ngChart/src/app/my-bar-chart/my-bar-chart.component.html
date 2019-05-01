@@ -1,0 +1,45 @@
+
+<div align="center">
+    <img src="/assets/img/simbols.jpg" width="850" class="col-12"/>
+</div>
+<h1  align="center">Matriculas del año lectivo Noviembre 2018-Abril 2019</h1>
+<div>
+  <div style="display: block">
+    <canvas baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [legend]="barChartLegend"
+        [chartType]="barChartType"></canvas>
+  </div>
+</div>
+
+<!--Imagen-->
+<div align="center">
+    <img src="/assets/img/instituto.jpg" width="850" class="col-12"/>
+</div>
+
+<div class="container">
+      
+      <div class="col-md-12 mt-3" align = "center">
+              <!--postulacion.jpg-->
+              <p>FORMULARIO DE INGRESO</p>
+              <img src="/assets/img/anulacion.png"/>
+        <button (click)="verPdf()" class="btn btn-primary">Descargar PDF </button>
+        <!-- <button class="btn btn-primary">REGISTRAR DATOS </button> -->
+          </div>
+  
+          <div class="col-md-12 mt-3" align = "center">
+                  <p>SOLICITUD ANULACIÓN</p>
+                  <img src="/assets/img/anulacion.png"/>
+               <button (click)="descargar()" class="btn btn-primary">Descargar PDF </button>
+          </div>
+          
+          <div class="col-md-12 mt-3" align = "center">
+              <p>COMPROBANTE ACEPTACIÓN</p>
+              <img src="/assets/img/anulacion.png"/>
+           <button (click)="aceptar()" class="btn btn-primary">Descargar PDF </button>
+      </div>
+          
+      
+  </div>
